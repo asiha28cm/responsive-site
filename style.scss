@@ -1,0 +1,33 @@
+@import "compass";
+
+// font-family
+$baseFontFamily :"游ゴシック", YuGothic, "メイリオ",Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+
+// colors
+$baseColor: #1b1b24;
+$subColor: #5f6070;
+$keyColor: #ffe058;
+$fontColor: #fff;
+
+/* Base
+------------------------------------------------------------*/
+html{ font-size: 62.5%; }
+
+body{
+    color: $fontColor;
+    font-size: 1.4rem;
+    font-family: $baseFontFamily;
+    letter-spacing: 0.1rem;
+    background-color: $baseColor;
+}
+
+/* Main
+------------------------------------------------------------*/
+//h1
+
+h1 {
+    text-align: center;
+    margin: 40px auto;
+    font-size: 4.2rem;
+}
+
